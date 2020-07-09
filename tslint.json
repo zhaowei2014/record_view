@@ -1,0 +1,32 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "quotemark": [
+      false,
+      "single"
+    ],
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "max-line-length": false,
+    "no-consecutive-blank-lines": false,
+    "no-eval": true,
+    "no-for-in-array": true,
+    "no-invalid-this": true,
+    "no-null-keyword": true,
+    "whitespace": false
+  }
+}
